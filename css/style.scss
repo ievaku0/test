@@ -1,0 +1,177 @@
+$fontSize: 14px;
+$fontColor: black;
+$headingColor : #283344;
+body {
+  background: rgba(17, 102, 141, 0.1);
+  width: 700px;
+  height: 982px;
+  margin: auto !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $fontSize;
+  white-space: nowrap;
+}
+
+.col1 {
+  text-align: center;
+  width: 69px;
+  ;
+  height: 40px;
+}
+
+.col2 {
+  width: 216px;
+  height: 40px;
+}
+
+.col3 {
+  width: 144px;
+  height: 40px;
+}
+
+.col4 {
+  width: 52px;
+  height: 40px;
+}
+
+.col5 {
+  width: 83px;
+  height: 40px;
+}
+
+.col6 {
+  width: 111px;
+  height: 40px;
+}
+
+tbody tr:hover {
+  background-color: rgb(202, 200, 200);
+}
+
+.table {
+  margin-top: 60px;
+  font-size: 12px;
+  background: white;
+  box-shadow: 0px -4px 24px rgba(0, 0, 0, 0.25);
+}
+
+#timerDesign {
+  height: 60px;
+  width: 700px;
+  position: absolute;
+  box-shadow: 0px -4px 24px rgba(0, 0, 0, 0.25);
+}
+
+text1 {
+  position: absolute;
+  width: 153px;
+  height: 19px;
+  left: 53px;
+  top: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: $headingColor;
+}
+
+#iconLeft {
+  left: 25px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+#img2 {
+  left: 539.78px;
+  top: 18px;
+  position: absolute;
+  width: 12.44px;
+  height: 24px;
+}
+
+#img3 {
+  left: 648px;
+  top: 14px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
+
+#img4 {
+  left: 656.73px;
+  top: 22.73px;
+  position: absolute;
+  width: 14.55px;
+  height: 14.55px;
+}
+
+#img5 {
+  left: 617px;
+  top: 15px;
+  position: absolute;
+  width: 18.66px;
+  height: 24px;
+}
+
+#img6 {
+  left: 656px;
+  top: 15px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+time1 {
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  right: 72px;
+  top: 21px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+th {
+  height: 40px;
+  vertical-align: middle;
+  padding: 0px;
+  color: $fontColor;
+}
+
+tr {
+  vertical-align: middle;
+  align-content: center;
+  padding: 0px;
+}
+
+td {
+  height: 40px;
+  vertical-align: middle;
+  padding: 0px;
+  color: $fontColor;
+}
+
+main {
+  position: absolute;
+  height: 922px;
+  width: 700px;
+  top: 60px;
+  font-family: Roboto;
+  background: rgba(17, 102, 141, 0.1);
+}
+
+#green {
+  color: #6AB845;
+}
+
+text2 {
+  position: absolute;
+  width: 131px;
+  font-family: Roboto;
+  font-weight: bold;
+  height: 23px;
+  left: 20px;
+  font-size: 20px;
+  line-height: 23px;
+  color: $headingColor
+}
